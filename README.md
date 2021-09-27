@@ -10,3 +10,14 @@ In addition to training ML models using existing SageMaker functionality, you wi
 By the end of this lab, your data scientists and analysts will learn how to directly obtain predictions from ML models using just SQL queries. The inferences can directly then be ingested into a database for OLAP or business intelligence.
 
 ![image](https://user-images.githubusercontent.com/9032900/109739694-1bab3400-7c1e-11eb-96bf-160228bf505f.png)
+
+Table of content
+- Create S3 buckets 3
+
+- Create Glue job for extracting and storing raw data 4
+
+- Catalog RAW data. 6
+
+- Create Glue Job to transform the data 10
+
+- Bring your own model script (SKlearn model) and train and deploy on Sagemaker
